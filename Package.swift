@@ -7,7 +7,7 @@ let package = Package(
     name: "IgniteSamples",
     platforms: [.macOS(.v14)],
     dependencies: [
-        .package(url: "https://github.com/twostraws/Ignite.git", branch: "main")
+        .package(path: "/Users/joshuatoro/Ignite-Framework/Ignite")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.

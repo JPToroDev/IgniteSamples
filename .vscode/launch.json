@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:IgniteSamples}",
+            "name": "Debug IgniteSamples",
+            "program": "${workspaceFolder:IgniteSamples}/.build/debug/IgniteSamples",
+            "preLaunchTask": "swift: Build Debug IgniteSamples"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:IgniteSamples}",
+            "name": "Release IgniteSamples",
+            "program": "${workspaceFolder:IgniteSamples}/.build/release/IgniteSamples",
+            "preLaunchTask": "swift: Build Release IgniteSamples"
+        }
+    ]
+}
